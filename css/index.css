@@ -1,0 +1,65 @@
+:root {
+
+    --primary: #f38e82;
+
+    --grad-1: #fbdb89;
+    --grad-2: #f48982;
+
+    --grey-light-1: #f9f5f3;
+    --grey-light-2: #f2efee;
+    --light-3: #d3c7c3;
+    --grey-dark-1: #615551;
+    --dark-2: #918581;
+
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-size: 1.5rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--grey-light-2);
+}
+
+.hero {
+    max-width: 1200px;
+    margin: auto;
+    padding: 8px 16px;
+}
+
+.hero .name {
+    font-size: 0.75rem;
+}
+
+.hero .name span {
+    color: var(--grey-dark-1);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.hero h1 {
+    color: var(--dark-2);
+    font-size: 2rem;
+}
+
+.hero p {
+    line-height: 2rem;
+}
+
+.hero a {
+    color: var(--primary);
+}
+
+.hero a:hover {
+    color: var(--grad-2);
+    text-decoration: unset;
+}

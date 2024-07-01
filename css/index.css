@@ -12,7 +12,7 @@
     --dark-2: #918581;
 
     font-family: "Ubuntu Sans Mono", monospace;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 * {
@@ -33,16 +33,14 @@ body {
 .hero {
     max-width: 1200px;
     margin: auto;
-    padding: 8px 16px;
+    padding: 32px 16px;
 }
 
-.hero .name {
-    font-size: 0.75rem;
-}
+
 
 .hero .name span {
     color: var(--grey-dark-1);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -52,7 +50,7 @@ body {
 }
 
 .hero p {
-    line-height: 2rem;
+    line-height: 3rem;
 }
 
 .hero a {
@@ -62,4 +60,39 @@ body {
 .hero a:hover {
     color: var(--grad-2);
     text-decoration: unset;
+}
+
+.contact{
+    background-color: var(--primary);    
+    padding-block: 4rem;
+    
+}
+
+.contact section{
+    margin-inline: auto;
+    text-align: center;
+    width: 400px;
+}
+.contact h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: black;
+    opacity: 0.8;
+}
+.contact p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+.contact a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--grey-light-1);
+    background-color: var(--dark-2);
+    padding: 1.2rem;
+    border-radius: 8px;
+}
+
+.contact a:hover{
+    background-color: var(--grey-dark-1);
 }
